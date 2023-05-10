@@ -7,5 +7,9 @@ class Question
       @question = "What does #{num1} plus #{num2} equal?"
       @answer = num1 + num2
     end
+
+    def check_answer(answer)
+        answer == @answer
+    end
   end
   
